@@ -7,6 +7,7 @@ namespace DemoCard.Views
         //Define list of products
         public CardDataListView()
         {
+
             var scl = new ScrollView() { VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand };
             var list = new ListView() { VerticalOptions = LayoutOptions.StartAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand,RowHeight = 100 };
             var itm = new DataTemplate(typeof(CustomCell));
